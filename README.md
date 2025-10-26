@@ -20,10 +20,6 @@ The full pipeline includes:
 
 - **Java 11+**  
 - **Python 3+**  
-- Java libraries:  
-  - `lucene-core-8.11.4.jar`  
-  - `lucene-analyzers-common-8.11.4.jar`  
-  - `gson-2.10.1.jar`  
 - Python libraries:  
   - `NLTK’s ISRIStemmer` 
 - Arabic stopwords file (e.g., `stopwords.txt`)  
