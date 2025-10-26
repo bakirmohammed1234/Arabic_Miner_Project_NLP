@@ -6,7 +6,7 @@ input_path = os.path.join(BASE_DIR, "tmp", "cleaned.txt")
 output_path = os.path.join(BASE_DIR, "tmp", "roots.txt")
 stemmer = ISRIStemmer()
 
-print("hello bakir")
+#print("hello bakir")
 with open(input_path, encoding="utf-8") as fin, open(output_path, "w", encoding="utf-8") as fout:
     for line in fin:
         word = line.strip()
