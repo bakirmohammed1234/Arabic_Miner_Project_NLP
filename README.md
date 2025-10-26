@@ -7,7 +7,7 @@ This project allows **cleaning, normalizing, stemming, and analyzing Arabic text
 The full pipeline includes:  
 1. Cleaning and normalization of Arabic texts  
 2. Stopword removal  
-3. Automatic stemming using a Python script with `NLTK’s ISRIStemmer` (or another Arabic stemmer)  
+3. Automatic stemming using a Python script with `NLTK’s ISRIStemmer`
 4. Calculating word frequency, TF, IDF, and TF-IDF for each root  
 5. Displaying a **final global result** including the root distribution  
 
