@@ -1,4 +1,4 @@
-# 📄 Text Mining Project V2 – Arabic Text Processing 
+#  Text Mining Project V2 – Arabic Text Processing 
 
 ## Project Description
 
