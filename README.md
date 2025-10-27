@@ -22,7 +22,7 @@ The full pipeline includes:
 - **Python 3+**  
 - Python libraries:  
   - `NLTK’s ISRIStemmer` 
-- Arabic stopwords file (e.g., `stopwords.txt`)  
+- Arabic stopwords file  
 
 ---
 
