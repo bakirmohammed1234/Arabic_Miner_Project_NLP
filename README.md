@@ -1,5 +1,5 @@
 #  Text Mining Project V2 – Arabic Text Processing 
- **Note :**  In the first version(Text_Miner_NLPV1), the project was implemented entirely in Java. However, I encountered some challenges finding suitable libraries to perform stemming (lemmatisation).
+ **Note :**  In the first version(Text_Miner_NLPV1), the project was implemented entirely in Java. However, I encountered some challenges finding suitable libraries to perform stemming (racinisation).
 To overcome this limitation, I decided to handle the stemming process using a Python script, which is executed directly from within the Java program. This hybrid approach combines the strengths of both languages , leveraging Java for core logic and Python for advanced text processing. 
 
 ## Project Description
