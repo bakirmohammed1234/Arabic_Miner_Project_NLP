@@ -100,12 +100,27 @@ public class TextProcessor {
     // 🧹 Normalisation du texte arabe
     static String normalizeArabic(String text) {
         String r = text;
+
+        // Normalisation des lettres arabes
         r = r.replaceAll("[إأآا]", "ا");
         r = r.replaceAll("ى", "ي");
         r = r.replaceAll("ؤ", "و");
         r = r.replaceAll("ئ", "ي");
         r = r.replaceAll("ة", "ه");
+
+        // Suppression des voyelles courtes (harakat)
         r = r.replaceAll("[ًٌٍَُِّْ]", "");
+
+        // 🔹 Suppression des ponctuations arabes et latines
+        r = r.replaceAll("[،؛؟]", " "); // ponctuation arabe
+        r = r.replaceAll("[\\p{Punct}]", " "); // ponctuation latine (. , ; : ! ? etc.)
+
+        // 🔹 Suppression de tout caractère non arabe ou espace
+        r = r.replaceAll("[^\\p{InArabic}\\s]", " ");
+
+        // Nettoyage des espaces multiples
+        r = r.replaceAll("\\s+", " ").trim();
+
         return r;
     }
 }
